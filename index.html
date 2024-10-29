@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagens/logo.png" alt="Calendário representando a marcação de uma tarefa.">
+            <h1>Programe seu dia</h1>
+        </header>
+        <form>
+            <h2>Adicionar nova tarefa:</h2>
+            <input type="text" id="nova-tarefa" required placeholder="Informe a tarefa">
+            <button type="submit">Adicionar</button>
+            <button type="reset" id="bt-reset">Limpar Lista</button>
+        </form>
+            <div class="lista">
+                <ul>
+                </ul>
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
